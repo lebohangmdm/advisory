@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Menu from "@/app/components/Menu";
 import { navLinks } from "@/lib/links";
+import SlideMenu from "@/app/components/SlideMenu";
 
 const Header = () => {
   return (
@@ -18,44 +18,9 @@ const Header = () => {
             );
           })}
         </ul>
-        {/* <Menu /> */}
+        <SlideMenu />
       </nav>
     </header>
-
-    // <header className="absolute top-0 left-0 w-full max-x-6xl mx-auto px-4 sm:px-6 ">
-    //   <nav className="flex items-center justify-between">
-    //     <p className="text-3xl font-bold">Logo</p>
-    //     <ul className="hidden lg:flex items-center lg:gap-x-12 xl:gap-x-14">
-    //       <li>
-    //         <Link href={"/"} className="nav-link">
-    //           About Us
-    //         </Link>
-    //       </li>
-    //       <li>
-    //         <Link href={"/"} className="nav-link">
-    //           Services
-    //         </Link>
-    //       </li>
-    //       <li>
-    //         <Link href={"/"} className="nav-link">
-    //           Credentials
-    //         </Link>
-    //       </li>
-    //       <li>
-    //         <Link href={"/"} className="nav-link">
-    //           Testimonials
-    //         </Link>
-    //       </li>
-    //       <li>
-    //         <Link href={"/"} className="nav-link">
-    //           Contact Us
-    //         </Link>
-    //       </li>
-    //     </ul>
-
-    //     <Menu />
-    //   </nav>
-    // </header>
   );
 };
 
