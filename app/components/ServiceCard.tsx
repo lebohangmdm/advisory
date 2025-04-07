@@ -15,7 +15,7 @@ export function ServiceCard({
   return (
     <Card className="md:max-w-[350px] border-none shadow-none p-0">
       <CardHeader className="flex flex-col p-0">
-        <span>{icon}</span>
+        <span className="text-blue-500">{icon}</span>
         <CardTitle className="capitalize text-lg lg:text-xl mt-2">
           {title}
         </CardTitle>

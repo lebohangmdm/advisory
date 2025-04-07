@@ -1,14 +1,8 @@
 import React from "react";
-import { ServiceCard } from "./ServiceCard";
+import { ServiceCard } from "@/app/components/ServiceCard";
 import { GraduationCap, Lightbulb, Settings } from "lucide-react";
 
 export const serviceData = [
-  //   {
-  //     icon: <GraduationCap size={32} />,
-  //     title: "Expertise across engineering industries",
-  //     description:
-  //       "With decades of experience, Gary can bring a wealth of knowledge across various industries, ensuring you receive informed, practical solutions.",
-  //   },
   {
     icon: <GraduationCap size={32} />,
     title: "Diverse Engineering Expertise",
@@ -31,7 +25,10 @@ export const serviceData = [
 
 const Services = () => {
   return (
-    <section className="max-w-6xl mx-auto py-12 px-4 sm:px-6 md:py-16 lg:px-8 lg:py-20">
+    <section
+      id="services"
+      className="max-w-6xl mx-auto py-12 px-4 sm:px-6 md:py-16 lg:px-8 lg:py-20"
+    >
       <h2 className="text-2xl  text-blue-500 capitalize font-semibold md:text-3xl lg:text-4xl mb-6 md:mb-8 lg:mb-12 xl:mb-16">
         Our Services
       </h2>

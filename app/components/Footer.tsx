@@ -9,7 +9,8 @@ const Footer = () => {
       <div className="ax-w-6xl mx-auto px-4 sm:px-6 ">
         <div className="flex flex-col gap-1 lg:flex-row lg:items-center lg:justify-between">
           <p className="text-xs md:text-sm">
-            © {year} Verdun Business Advisory | Website Designed by Creo Capital
+            © {year} Verdun Business Advisory | Website Designed by
+            synthCreations
           </p>
           <ul className="flex items-center gap-2.5">
             <li>

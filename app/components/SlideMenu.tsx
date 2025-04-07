@@ -6,6 +6,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { menuLinks } from "@/lib/links";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Facebook, Instagram, Menu, X as XIcon } from "lucide-react";
 import Link from "next/link";
@@ -25,6 +26,10 @@ export default function SlideMenu() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  const handleLinkClick = () => {
+    setOpen(false); // Close the menu when a link is clicked
+  };
+
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
@@ -43,19 +48,14 @@ export default function SlideMenu() {
 
         <div className="mt-12 px-4 space-y-4">
           <ul className="flex flex-col gap-2">
-            {[
-              { label: "Home", href: "/" },
-              { label: "About Us", href: "/#about-us" },
-              { label: "Services", href: "/#services" },
-              { label: "Testimonials", href: "/#testimonials" },
-              { label: "Contact Us", href: "/#contact-us" },
-            ].map((item) => (
-              <li key={item.label}>
+            {menuLinks.map((link) => (
+              <li key={link.id}>
                 <Link
-                  href={item.href}
+                  href={link.href}
+                  onClick={handleLinkClick} // Close menu on link click
                   className="text-base sm:text-lg font-semibold hover:text-blue-500 transition-all duration-150"
                 >
-                  {item.label}
+                  {link.label}
                 </Link>
               </li>
             ))}

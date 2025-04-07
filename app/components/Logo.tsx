@@ -1,10 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import logo from "@/public/verdun-header-logo.png";
+import Link from "next/link";
 
 const Logo = () => {
   return (
-    <div className="flex items-start gap-1.5">
+    <Link href={"/"} className="flex items-start gap-1.5">
       <Image
         src={logo}
         alt='"verdun logo'
@@ -14,7 +15,7 @@ const Logo = () => {
         className="bg-transparent"
       />
       <p className="font-bold text-lg text-blue-500">Verdun</p>
-    </div>
+    </Link>
   );
 };
 

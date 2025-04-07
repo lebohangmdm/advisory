@@ -4,7 +4,10 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="max-w-6xl mx-auto py-12 px-4 sm:px-6 md:py-16 lg:px-8 lg:py-20">
+    <section
+      id="about-us"
+      className="max-w-6xl mx-auto py-12 px-4 sm:px-6 md:py-16 lg:px-8 lg:py-20"
+    >
       <div className="grid md:grid-cols-2 lg:grid-cols-[60%_40%] gap-12 md:gap-14 lg:gap-16">
         <div className="">
           <h2 className="text-2xl text-blue-500 capitalize font-semibold  md:text-3xl lg:text-4xl mb-4 sm:mb-6 md:mb-8">
