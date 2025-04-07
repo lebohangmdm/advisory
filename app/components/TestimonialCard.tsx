@@ -13,7 +13,7 @@ const TestimonialCard = ({
       <CardHeader className="flex flex-col ">
         <CardTitle className="capitalize text-lg mt-2">{title}</CardTitle>
       </CardHeader>
-      <CardContent className="text-sm max-w-2xl md:max-w-3xl md:text-base text-gray-600">
+      <CardContent className="text-sm max-w-2xl md:max-w-3xl text-base text-gray-600">
         &quot;{description}&quot;
       </CardContent>
     </Card>

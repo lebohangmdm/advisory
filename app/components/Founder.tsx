@@ -1,5 +1,5 @@
 import { BriefcaseBusiness, GraduationCap } from "lucide-react";
-import founder from "@/public/founder (2).jpg";
+import founder from "@/public/founder1.jpg";
 import Image from "next/image";
 
 const Founder = () => {
@@ -37,14 +37,14 @@ const Founder = () => {
                     <GraduationCap size={32} className="text-blue-800" />
                   </div>
                   <div>
-                    <p className="text-lg font-semibold md:text-lg lg:text-xl">
+                    <p className="text-lg font-semibold lg:text-xl">
                       Qualifications
                     </p>
                     <div className="mt-2">
-                      <p className="font-medium font-serif">
+                      <p className="text-base lg:text-lg font-medium font-serif">
                         University of South Africa
                       </p>
-                      <ul className="text-sm lg:text-base space-y-1 list-disc ml-8">
+                      <ul className="text-sm sm:text-base lg:text-lg space-y-1 list-disc ml-8">
                         <li>
                           Graduated BCom Degree Unisa School of Business
                           Leadership
@@ -68,14 +68,14 @@ const Founder = () => {
                     <BriefcaseBusiness size={32} className="text-blue-800" />
                   </div>
                   <div>
-                    <p className="text-lg font-semibold md:text-lg lg:text-xl">
+                    <p className="text-lg font-semibold lg:text-xl">
                       Experience
                     </p>
                     <div className="mt-2">
-                      <p className="font-medium font-serif mb-1">
+                      <p className="text-base lg:text-lg font-medium font-serif mb-1">
                         Senior Management in Large SA industrial Groups
                       </p>
-                      <ul className="text-sm lg:text-base space-y-1 list-disc ml-8">
+                      <ul className="text-sm sm:text-base lg:text-lg space-y-1 list-disc ml-8">
                         <li>Lennings Group SA Divisional Director</li>
                         <li>Whiteys Division Powertech Industries</li>
                         <li>Altron Group Managing Director</li>

@@ -1,17 +1,20 @@
 import Image from "next/image";
 import React from "react";
-import logo from "@/public/Verdun_Logo1-1-removebg-preview.png";
+import logo from "@/public/verdun-header-logo.png";
 
 const Logo = () => {
   return (
-    <Image
-      src={logo}
-      alt='"verdun logo'
-      style={{ objectFit: "cover", objectPosition: "center" }}
-      width={200}
-      height={200}
-      className="bg-transparent"
-    />
+    <div className="flex items-start gap-1.5">
+      <Image
+        src={logo}
+        alt='"verdun logo'
+        style={{ objectFit: "cover", objectPosition: "center" }}
+        width={25}
+        height={25}
+        className="bg-transparent"
+      />
+      <p className="font-bold text-lg text-blue-500">Verdun</p>
+    </div>
   );
 };
 

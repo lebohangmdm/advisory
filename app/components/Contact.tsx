@@ -24,7 +24,7 @@ const Contact = () => {
                   <p className="text-base md:text-lg font-semibold">Call</p>
                   <a
                     href="tel:+12345678901"
-                    className="text-sm  md:text-base font-medium hover:text-blue-600  transition-all duration-150"
+                    className="text-sm  sm:text-base font-medium hover:text-blue-600  transition-all duration-150"
                   >
                     +1 (234) 567-8901
                   </a>
@@ -38,7 +38,7 @@ const Contact = () => {
                   <p className="text-base md:text-lg font-semibold ">Email</p>
                   <a
                     href="mailto:contact@example.com"
-                    className="text-sm md:text-base font-medium hover:text-blue-600  transition-all duration-150"
+                    className="text-sm sm:text-base font-medium hover:text-blue-600  transition-all duration-150"
                   >
                     gary@Verdunba.co.za
                   </a>
@@ -55,7 +55,7 @@ const Contact = () => {
                       href="https://www.google.com/maps?q=123+Main+Street,+Cityville,+Country"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm md:text-base font-medium md:backdrop-blur-lg md:bg-white/10 hover:text-blue-600 transition-all duration-150"
+                      className="text-sm sm:text-base font-medium md:backdrop-blur-lg md:bg-white/10 hover:text-blue-600 transition-all duration-150"
                     >
                       132 9th, Linden 2195
                     </a>
