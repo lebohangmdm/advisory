@@ -9,8 +9,13 @@ const Footer = () => {
       <div className="ax-w-6xl mx-auto px-4 sm:px-6 ">
         <div className="flex flex-col gap-1 lg:flex-row lg:items-center lg:justify-between">
           <p className="text-xs md:text-sm">
-            © {year} Verdun Business Advisory | Website Designed by
-            synthCreations
+            © {year} Verdun Business Advisory | Website Designed by{" "}
+            <Link
+              href={"https://my-profile-dusky.vercel.app/"}
+              className="font-medium"
+            >
+              SynthCreations
+            </Link>
           </p>
           <ul className="flex items-center gap-2.5">
             <li>
@@ -33,11 +38,11 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/"
+                href=""
                 className="p-[3px] bg-transparent rounded-sm inline-flex"
                 aria-label="Instagram"
               >
-                <Instagram className="h-4 w-4 text-slate-900" />
+                <Instagram className="h-4 w-4  text-slate-900" />
               </Link>
             </li>
           </ul>
