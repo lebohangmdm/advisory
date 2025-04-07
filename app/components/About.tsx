@@ -44,7 +44,7 @@ const About = () => {
           </div>
         </div>
         <div>
-          <h1 className="text-5xl font-bold bg-slate-100 w-full h-full">
+          <h1 className="w-full h-full">
             <Image
               src={about}
               alt="workers in the office discussing"
