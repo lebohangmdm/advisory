@@ -6,7 +6,6 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ["var(--font-inter)", "var(--font-roboto)", "sans-serif"],
-        serif: ["var(--font-libre-caslon)", "serif"],
       },
     },
   },

@@ -53,7 +53,7 @@ export default function SlideMenu() {
                 <Link
                   href={link.href}
                   onClick={handleLinkClick} // Close menu on link click
-                  className="text-base sm:text-lg font-semibold hover:text-blue-500 transition-all duration-150"
+                  className="text-base  capitalize sm:text-lg font-semibold hover:text-blue-500 transition-all duration-150"
                 >
                   {link.label}
                 </Link>
