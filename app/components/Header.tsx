@@ -13,12 +13,12 @@ const Header = () => {
             {navLinks.map((link) => {
               return (
                 <li key={link.id}>
-                  <Link
+                  <a
                     href={link.href}
                     className="text-black capitalize font-semibold text-lg hover:text-blue-500 transition-all duration-150"
                   >
                     {link.label}
-                  </Link>
+                  </a>
                 </li>
               );
             })}

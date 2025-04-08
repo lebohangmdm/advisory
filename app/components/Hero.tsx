@@ -6,7 +6,7 @@ import logo from "@/public/Verdun_Logo1-1-removebg-preview.png";
 const Hero = () => {
   return (
     <section
-      id="home"
+      id="hero"
       className="h-screen bg-cover bg-center  bg-[url('/bg-hero.png')]"
     >
       <Header />

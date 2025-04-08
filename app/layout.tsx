@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { Libre_Caslon_Text, Roboto, Inter } from "next/font/google";
+import { Roboto, Inter } from "next/font/google";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -14,13 +14,6 @@ const roboto = Roboto({
   weight: ["400", "500", "700"],
   variable: "--font-roboto",
   display: "swap",
-});
-
-const libreCaslonText = Libre_Caslon_Text({
-  weight: ["400", "700"],
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-libre-caslon-text",
 });
 
 const homeUrl =
@@ -56,7 +49,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${inter.variable} ${roboto.variable} ${libreCaslonText.variable} antialiased overflow-x-hidden`}
+        className={`${inter.variable} ${roboto.variable} antialiased overflow-x-hidden`}
       >
         {children}
       </body>
