@@ -1,6 +1,5 @@
-import Link from "next/link";
-import { navLinks } from "@/lib/links";
 import SlideMenu from "@/app/components/SlideMenu";
+import { navLinks } from "@/lib/links";
 import Logo from "./Logo";
 
 const Header = () => {
