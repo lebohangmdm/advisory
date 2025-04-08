@@ -25,8 +25,8 @@ export const navLinks: Link[] = [
 
 export const menuLinks: Link[] = [
   {
-    id: "hero",
-    href: "#hero",
+    id: "home",
+    href: "#home",
     label: "home",
   },
   {
