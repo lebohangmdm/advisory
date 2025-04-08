@@ -12,7 +12,9 @@ const Footer = () => {
             © {year} Verdun Business Advisory | Website Designed by{" "}
             <Link
               href={"https://my-profile-dusky.vercel.app/"}
-              className="font-medium"
+              className="font-medium hover:text-gray-600 transition-all duration-150"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               SynthCreations
             </Link>

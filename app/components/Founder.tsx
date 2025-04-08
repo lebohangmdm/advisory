@@ -1,5 +1,5 @@
 import { BriefcaseBusiness, GraduationCap } from "lucide-react";
-import founder from "@/public/founder1.jpg";
+import founder from "@/public/founder.jpg";
 import Image from "next/image";
 
 const Founder = () => {

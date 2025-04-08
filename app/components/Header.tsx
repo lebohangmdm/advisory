@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="bg-white/20">
       <div className=" max-w-6xl mx-auto px-4  sm:px-6 lg:px-8 py-4 md:pt-6 z-30">
-        <nav className=" flex items-center justify-between">
+        <nav className="flex items-center justify-between">
           <Logo />
           <ul className="hidden lg:flex items-center lg:gap-x-12 xl:gap-x-14">
             {navLinks.map((link) => {
