@@ -3,7 +3,7 @@ import { Mail, MapPin, PhoneCall } from "lucide-react";
 const Contact = () => {
   return (
     <section
-      id="contact-us"
+      id="#contact-us"
       className="bg-cover  bg-center  bg-[url('/contact.jpg')]"
     >
       <div className="relative z-10 bg-white/20">
@@ -55,7 +55,7 @@ const Contact = () => {
                   <p className="text-base md:text-lg font-semibold">Address</p>
                   <address className="not-italic">
                     <a
-                      href="https://www.google.com/maps?q=123+Main+Street,+Cityville,+Country"
+                      href="https://www.google.com/maps?q=132+9th+St,+Linden,+Randburg,+2195"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm sm:text-base font-medium md:backdrop-blur-lg md:bg-white/10 hover:text-blue-600 transition-all duration-150"
