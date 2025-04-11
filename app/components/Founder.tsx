@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Founder = () => {
   return (
-    <section className="max-w-6xl mx-auto py-12 px-4 sm:px-6 md:pl-0 md:py-16 lg:px-8 lg:py-20">
+    <section className="section-container">
       <div className="grid md:grid-cols-2 gap-12 lg:gap-14 xl:gap-16">
         <div className="mx-auto">
           <Image

@@ -25,10 +25,7 @@ export const serviceData = [
 
 const Services = () => {
   return (
-    <section
-      id="services"
-      className="max-w-6xl mx-auto py-12 px-4 sm:px-6 md:py-16 lg:px-8 lg:py-20"
-    >
+    <section id="services" className="section-container">
       <h2 className="text-2xl  text-blue-500 capitalize font-semibold md:text-3xl lg:text-4xl mb-6 md:mb-8 lg:mb-12 xl:mb-16">
         Our Services
       </h2>

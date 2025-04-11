@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section
       id="#contact-us"
-      className="bg-cover  bg-center  bg-[url('/contact.jpg')]"
+      className="bg-cover bg-center bg-[url('/contact.jpg')]"
     >
       <div className="relative z-10 bg-white/20">
         <div className="max-w-6xl mx-auto py-6 px-4 sm:px-6 md:py-8 lg:px-8 lg:py-12 ">

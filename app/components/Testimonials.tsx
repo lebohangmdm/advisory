@@ -19,10 +19,7 @@ const Testimonials = () => {
     },
   ];
   return (
-    <section
-      id="testimonials"
-      className="max-w-6xl mx-auto py-12 px-4 sm:px-6 md:py-16 lg:px-8 lg:py-20"
-    >
+    <section id="testimonials" className="section-container">
       <div className="mb-4 sm:mb-6 md:mb-8 lg:mb-12 xl:mb-16">
         <h2 className="text-xl text-blue-500 capitalize font-semibold sm:text-2xl md:text-3xl lg:text-4xl mb-0.5 md:m-1">
           Testimonials
