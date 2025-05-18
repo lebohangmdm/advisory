@@ -3,7 +3,7 @@ import { Mail, MapPin, PhoneCall } from "lucide-react";
 const Contact = () => {
   return (
     <section
-      id="#contact-us"
+      id="contact-us"
       className="bg-cover bg-center bg-[url('/contact.jpg')]"
     >
       <div className="relative z-10 bg-white/20">

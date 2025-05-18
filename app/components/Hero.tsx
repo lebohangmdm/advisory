@@ -6,7 +6,7 @@ import logo from "@/public/Verdun_Logo1-1-removebg-preview.png";
 const Hero = () => {
   return (
     <section
-      id="#home"
+      id="home"
       className="h-screen bg-cover bg-center  bg-[url('/bg-hero.png')]"
     >
       <Header />
@@ -21,7 +21,7 @@ const Hero = () => {
               height={1000}
             />
 
-            <p className="mt-4 text-base sm:text-lg md:text-xl max-w-xl bg-white/10 backdrop-blur-md">
+            <p className="mt-4 text-base sm:text-lg md:text-xl max-w-xl bg-white/10 backdrop-blur-md p-1 md:p-1.5 lg:p-2">
               We provide tailored strategies and actionable insights to help
               your business grow, optimize operations, and stay competitive in
               today’s market.

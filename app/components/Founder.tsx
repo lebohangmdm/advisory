@@ -1,12 +1,12 @@
 import { BriefcaseBusiness, GraduationCap } from "lucide-react";
-import founder from "@/public/founder.jpg";
+import founder from "@/public/gary.jpg";
 import Image from "next/image";
 
 const Founder = () => {
   return (
     <section className="section-container">
-      <div className="grid md:grid-cols-2 gap-12 lg:gap-14 xl:gap-16">
-        <div className="mx-auto">
+      <div className="grid  md:grid-cols-2 gap-12 lg:gap-14 xl:gap-16">
+        <div className="mx-auto order-2 md:order-1">
           <Image
             src={founder}
             alt="Gary Greeff"
@@ -19,7 +19,7 @@ const Founder = () => {
             <strong className="text-black">Gary Greeff</strong>
           </figcaption>
         </div>
-        <div>
+        <div className="md:order-2">
           <h3 className="text-xl font-sans md:text-2xl lg:text-[28px] text-blue-500 font-medium mb-2.5">
             Our Founder
           </h3>
