@@ -1,6 +1,9 @@
 import { Mail, MapPin, PhoneCall } from "lucide-react";
 
 const Contact = () => {
+  const MapUrl =
+    "https://www.google.com/maps/place/132+9Th+St,+Linden,+Randburg,+2104/@-26.1342006,28.0006844,17z";
+
   return (
     <section
       id="contact-us"
@@ -55,7 +58,7 @@ const Contact = () => {
                   <p className="text-base md:text-lg font-semibold">Address</p>
                   <address className="not-italic">
                     <a
-                      href="https://www.google.com/maps?q=132+9th+St,+Linden,+Randburg,+2195"
+                      href={MapUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm sm:text-base font-medium md:backdrop-blur-lg md:bg-white/10 hover:text-blue-600 transition-all duration-150"

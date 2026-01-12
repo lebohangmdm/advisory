@@ -65,7 +65,7 @@ export default function SlideMenu() {
           <div>
             <p className="text-sm font-semibold">Address</p>
             <p className="text-sm font-medium max-w-48">
-              304 North Cardinal St. Dorchester Center, MA 02124
+              132 9th street, Linden, Randburg, 2104
             </p>
           </div>
 
