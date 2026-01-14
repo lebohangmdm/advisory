@@ -3,12 +3,12 @@ import TestimonialCard from "@/app/components/TestimonialCard";
 const Testimonials = () => {
   const testimonials = [
     {
-      title: "wave aperture winders",
+      title: "wave amature winders",
       description:
         "Verdun provided exceptional strategic insights that transformed our business. Their strong commitment to confidentiality made us feel secure, and their expert advice played a key role in our recent growth. We couldn't be more satisfied with their service.",
     },
     {
-      title: "MK forklifts",
+      title: "MTK forklifts",
       description:
         "During a critical phase in our business, we received invaluable financial advisory services. The team offered professional, confidential guidance and customized solutions that helped us overcome challenges and emerge stronger. We highly recommend their services to any company seeking discreet and effective business advice.",
     },

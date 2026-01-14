@@ -27,7 +27,7 @@ const Services = () => {
   return (
     <section id="services" className="section-container">
       <h2 className="text-2xl  text-blue-500 capitalize font-semibold md:text-3xl lg:text-4xl mb-6 md:mb-8 lg:mb-12 xl:mb-16">
-        Our Services
+        Our areas of focus
       </h2>
 
       <div className="grid md:grid-cols-3 gap-8 lg:gap-12">

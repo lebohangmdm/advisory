@@ -29,10 +29,11 @@ const Contact = () => {
                 <div>
                   <p className="text-base md:text-lg font-semibold">Call</p>
                   <a
-                    href="tel:+12345678901"
+                    href="tel:+27832295962"
+                    aria-label="Call +27 83 229 5962"
                     className="text-sm  sm:text-base font-medium hover:text-blue-600  transition-all duration-150"
                   >
-                    +1 (234) 567-8901
+                    +27(0) 83 229 5962
                   </a>
                 </div>
               </div>
@@ -43,7 +44,7 @@ const Contact = () => {
                 <div>
                   <p className="text-base md:text-lg font-semibold ">Email</p>
                   <a
-                    href="mailto:contact@example.com"
+                    href="mailto:gary@Verdunba.co.za"
                     className="text-sm sm:text-base font-medium hover:text-blue-600  transition-all duration-150"
                   >
                     gary@Verdunba.co.za

@@ -1,4 +1,3 @@
-import { Facebook, Instagram, XIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -19,35 +18,6 @@ const Footer = () => {
               SynthCreations
             </Link>
           </p>
-          <ul className="flex items-center gap-2.5">
-            <li>
-              <Link
-                href="/"
-                className="p-[3px] bg-transparent rounded-full inline-flex"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-4 h-4 text-slate-900" />
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/"
-                className="p-[3px] bg-transparent rounded-sm inline-flex"
-                aria-label="Twitter/X"
-              >
-                <XIcon className="h-4 w-4 text-slate-900" />
-              </Link>
-            </li>
-            <li>
-              <Link
-                href=""
-                className="p-[3px] bg-transparent rounded-sm inline-flex"
-                aria-label="Instagram"
-              >
-                <Instagram className="h-4 w-4  text-slate-900" />
-              </Link>
-            </li>
-          </ul>
         </div>
       </div>
     </footer>

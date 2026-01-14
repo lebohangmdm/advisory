@@ -7,12 +7,12 @@ const About = () => {
     <section id="about-us" className="section-container">
       <div className="grid md:grid-cols-2 lg:grid-cols-[60%_40%] gap-12 md:gap-14 lg:gap-16">
         <div className="">
-          <h2 className="text-2xl text-blue-500 capitalize font-semibold  md:text-3xl lg:text-4xl mb-4 sm:mb-6 md:mb-8">
+          <h2 className="text-2xl text-blue-500 capitalize font-semibold  md:text-3xl lg:text-4xl xl:text-5xl mb-4 sm:mb-6 md:mb-8">
             Get to know us
           </h2>
 
           <div className="space-y-2 mb-4 md:mb-6">
-            <p className="text-base lg:text-lg ">
+            <p className="text-base lg:text-lg">
               We begin by conducting a thorough assessment of your business to
               understand your goal unique challenges and goals.
             </p>
@@ -23,9 +23,9 @@ const About = () => {
             </p>
           </div>
 
-          <div className="space-y-1.5  md:space-y-2 lg:space-y-2.5">
-            <p className="text-lg lg:text-xl font-bold capitalize">
-              Verdun&apos;s area of focus:
+          <div className="space-y-1.5  md:space-y-2 lg:space-y-4 ">
+            <p className="text-lg lg:text-3xl font-bold capitalize">
+              Our Services
             </p>
             <ul className="flex flex-col gap-1 lg:gap-1.5 list-disc ml-8">
               <li className="text-base lg:text-lg">
@@ -40,6 +40,8 @@ const About = () => {
               <li className="text-base lg:text-lg">
                 New organizations in need of mentoring and advisory services
               </li>
+              <li className="text-base lg:text-lg">Business turnaround</li>
+              <li className="text-base lg:text-lg">Business rescue</li>
             </ul>
           </div>
         </div>

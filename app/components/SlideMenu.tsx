@@ -1,8 +1,7 @@
 "use client";
 
 import { menuLinks } from "@/lib/links";
-import { Facebook, Instagram, Menu, X, X as XIcon } from "lucide-react";
-import Link from "next/link";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 export default function SlideMenu() {
@@ -76,37 +75,6 @@ export default function SlideMenu() {
             </p>
             <p className="text-sm font-medium max-w-48">Weekend: 10AM - 5PM</p>
           </div>
-
-          <ul className="flex items-center gap-2.5">
-            <li>
-              <Link
-                href="/"
-                aria-label="Facebook"
-                className="p-[3px] bg-white rounded-full inline-flex"
-              >
-                <Facebook className="w-4 h-4 text-slate-900" />
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/"
-                aria-label="Facebook"
-                className="p-[3px] bg-white rounded-full inline-flex"
-              >
-                <XIcon className="w-4 h-4 text-slate-900" />
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/"
-                aria-label="Instagram"
-                className="p-[3px] bg-white rounded-sm inline-flex"
-              >
-                <Instagram className="h-4 w-4 text-slate-900" />
-              </Link>
-            </li>
-            {/* Add more social icons if needed */}
-          </ul>
         </div>
       </div>
     </>
