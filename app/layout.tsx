@@ -22,11 +22,11 @@ const homeUrl =
 export const metadata: Metadata = {
   title: "Verdun Business Advisory (Pty) Ltd",
   description:
-    "We provide tailored strategies and actionable insights to helpyour business grow, optimize operations, and stay competitive in today’s market.",
+    "We provide tailored strategies and actionable insights to help your business grow, optimize operations, and stay competitive in today’s market.",
   openGraph: {
     title: "Verdun Business Advisory (Pty) Ltd",
     description:
-      "We provide tailored strategies and actionable insights to helpyour business grow, optimize operations, and stay competitive in today’s market.",
+      "We provide tailored strategies and actionable insights to help your business grow, optimize operations, and stay competitive in today’s market.",
     url: `https://verdun.co.za`,
     type: "article",
     siteName: "Verdun Business Advisory",
