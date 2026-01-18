@@ -9,11 +9,13 @@ const TestimonialCard = ({
   description: string;
 }) => {
   return (
-    <Card className="w-full lg:max-w-[375px] rounded-none">
+    <Card className="w-full mx-auto lg:max-w-[450px] rounded-none">
       <CardHeader className="flex flex-col ">
-        <CardTitle className="capitalize text-lg mt-2">{title}</CardTitle>
+        <CardTitle className="capitalize text-lg lg:text-xl mt-2">
+          {title}
+        </CardTitle>
       </CardHeader>
-      <CardContent className="text-sm max-w-2xl md:max-w-3xl md:text-base text-gray-600">
+      <CardContent className="text-sm max-w-2xl md:max-w-3xl  md:text-base lg:text-lg text-gray-600">
         &quot;{description}&quot;
       </CardContent>
     </Card>

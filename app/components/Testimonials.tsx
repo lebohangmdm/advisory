@@ -12,11 +12,6 @@ const Testimonials = () => {
       description:
         "During a critical phase in our business, we received invaluable financial advisory services. The team offered professional, confidential guidance and customized solutions that helped us overcome challenges and emerge stronger. We highly recommend their services to any company seeking discreet and effective business advice.",
     },
-    {
-      title: "Turners",
-      description:
-        "I was impressed by Verdun's deep knowledge and tailored approach during our M&A process. They handled every aspect with precision and confidentiality, offering practical solutions to potential challenges. If you need a business advisory service with the highest level of discretion, look no further.",
-    },
   ];
   return (
     <section id="testimonials" className="section-container">
@@ -29,7 +24,7 @@ const Testimonials = () => {
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-3 gap-8 md:gap-10 lg:gap-12">
+      <div className="grid lg:grid-cols-2  gap-8 md:gap-10 lg:gap-12">
         {testimonials.map((testimonial) => (
           <TestimonialCard
             key={testimonial.title}

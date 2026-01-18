@@ -4,6 +4,9 @@ import { menuLinks } from "@/lib/links";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
+const MapUrl =
+  "https://www.google.com/maps/place/132+9Th+St,+Linden,+Randburg,+2104/@-26.1342006,28.0006844,17z";
+
 export default function SlideMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -64,7 +67,14 @@ export default function SlideMenu() {
           <div>
             <p className="text-sm font-semibold">Address</p>
             <p className="text-sm font-medium max-w-48">
-              132 9th street, Linden, Randburg, 2104
+              <a
+                href={MapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" hover:text-blue-500 transition-all duration-150"
+              >
+                132 9th street, Linden, Randburg, 2104
+              </a>
             </p>
           </div>
 

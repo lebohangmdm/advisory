@@ -14,7 +14,7 @@ const Logo = () => {
         height={25}
         className="bg-transparent"
       />
-      <p className="font-bold text-lg text-blue-500">Verdun</p>
+      <p className="font-bold text-lg text-[#135a91]">Verdun</p>
     </Link>
   );
 };

@@ -45,15 +45,14 @@ const Founder = () => {
                         University of South Africa
                       </p>
                       <ul className="text-sm sm:text-base lg:text-lg space-y-1.5 list-disc ml-8">
+                        <li>Graduated BCom Degree Unisa</li>
                         <li>
-                          Graduated BCom Degree Unisa School of Business
-                          Leadership
+                          Graduated Master of Business Leadership Degree(MBL)
                         </li>
                         <li>
-                          Graduated Master of Business Leadership Degree Davinci
-                          Business School
+                          Currently completing Phd in business turnaround and
+                          rescue
                         </li>
-                        <li>Currently completing Phd</li>
                       </ul>
                     </div>
                   </div>
@@ -81,12 +80,13 @@ const Founder = () => {
                           Africa
                         </li>
                         <li>
-                          Certified Business Advisor with IBASA Membership
-                          number: M5829
+                          Certified Business Advisor With IBASA Membership
+                          number: <span className="font-semibold">M5829</span>
                         </li>
                         <li>
-                          Experienced Business Rescue Practitioner with CIPC
-                          License number: 6934
+                          Accredited Experienced Business Rescue Practitioner
+                          with CIPC License number:{" "}
+                          <span className="font-semibold">6934</span>
                         </li>
                       </ul>
                     </div>
@@ -106,13 +106,12 @@ const Founder = () => {
                       Experience
                     </p>
                     <div className="mt-2">
-                      <p className="text-base lg:text-lg font-medium font-serif mb-1">
-                        Senior Management in Large SA industrial Groups
+                      <p className="text-base lg:text-lg font-medium font-serif mb-1 capitalize">
+                        Business rescue and turnaround experience
                       </p>
                       <ul className="text-sm sm:text-base lg:text-lg space-y-1.5 list-disc ml-8">
                         <li>Lennings Group SA Divisional Director</li>
-                        <li>Whiteys Division Powertech Industries</li>
-                        <li>Altron Group Managing Director</li>
+                        <li>Whiteys A Division Powertech Industries</li>
                         <li>
                           Linden Industrial Engineering Founded Several Ongoing
                           Technology Companies

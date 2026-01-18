@@ -14,7 +14,7 @@ const About = () => {
           <div className="space-y-2 mb-4 md:mb-6">
             <p className="text-base lg:text-lg">
               We begin by conducting a thorough assessment of your business to
-              understand your goal unique challenges and goals.
+              understand your unique challenges and goals.
             </p>
             <p className="text-base lg:text-lg">
               From there, we work closely with you to develop a tailored
@@ -31,6 +31,8 @@ const About = () => {
               <li className="text-base lg:text-lg">
                 Critical evaluation of business rescue plans
               </li>
+              <li className="text-base lg:text-lg">Business turnaround</li>
+              <li className="text-base lg:text-lg">Business rescue</li>
               <li className="text-base lg:text-lg">
                 Business continuation following unexpected leadership loss
               </li>
@@ -40,8 +42,6 @@ const About = () => {
               <li className="text-base lg:text-lg">
                 New organizations in need of mentoring and advisory services
               </li>
-              <li className="text-base lg:text-lg">Business turnaround</li>
-              <li className="text-base lg:text-lg">Business rescue</li>
             </ul>
           </div>
         </div>

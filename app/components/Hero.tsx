@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "@/app/components/Header";
 import Image from "next/image";
-import logo from "@/public/Verdun_Logo1-1-removebg-preview.png";
+import logo from "@/public/Verdun-logo-removebg.png";
 
 const Hero = () => {
   return (
