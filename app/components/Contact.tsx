@@ -64,7 +64,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       className="text-sm sm:text-base font-medium md:backdrop-blur-lg md:bg-white/10 hover:text-blue-600 transition-all duration-150"
                     >
-                      132 9th, Linden 2195
+                      41 13th Street Linden, Randburg
                     </a>
                   </address>
                 </div>

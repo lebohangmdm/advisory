@@ -2,13 +2,29 @@
 
 import { menuLinks } from "@/lib/links";
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const MapUrl =
-  "https://www.google.com/maps/place/132+9Th+St,+Linden,+Randburg,+2104/@-26.1342006,28.0006844,17z";
+  "https://www.google.com/maps/place/41+13th+St,+Linden,+Randburg,+2104/@-26.1342006,28.0006844,17z";
 
 export default function SlideMenu() {
   const [isOpen, setIsOpen] = useState(false);
+
+  // ✅ Auto-close on large screens
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 1024px)");
+
+    const handleResize = () => {
+      if (mediaQuery.matches) {
+        setIsOpen(false);
+      }
+    };
+
+    handleResize(); // run once on mount
+    mediaQuery.addEventListener("change", handleResize);
+
+    return () => mediaQuery.removeEventListener("change", handleResize);
+  }, []);
 
   const handleLinkClick = (e: React.MouseEvent, href: string) => {
     e.preventDefault();
@@ -30,14 +46,14 @@ export default function SlideMenu() {
       {/* Overlay */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black/50 z-40"
+          className="fixed inset-0 bg-black/50 z-40 lg:hidden"
           onClick={() => setIsOpen(false)}
         />
       )}
 
       {/* Slide-in Menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-3/4 max-w-sm bg-slate-900 text-white z-50 transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 h-full w-3/4 max-w-sm bg-slate-900 text-white z-50 transform transition-transform duration-300 ease-in-out lg:hidden ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -71,19 +87,17 @@ export default function SlideMenu() {
                 href={MapUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" hover:text-blue-500 transition-all duration-150"
+                className="hover:text-blue-500 transition-all duration-150"
               >
-                132 9th street, Linden, Randburg, 2104
+                41 13th Street Linden, Randburg
               </a>
             </p>
           </div>
 
           <div>
             <p className="text-sm font-semibold">Working Hours</p>
-            <p className="text-sm font-medium max-w-48">
-              Monday to Friday: 7AM - 7PM
-            </p>
-            <p className="text-sm font-medium max-w-48">Weekend: 10AM - 5PM</p>
+            <p className="text-sm font-medium">Monday to Friday: 7AM - 7PM</p>
+            <p className="text-sm font-medium">Weekend: 10AM - 5PM</p>
           </div>
         </div>
       </div>
