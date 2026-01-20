@@ -30,21 +30,49 @@ const Founder = () => {
           </div>
 
           <div className="space-y-4 sm:space-y-5 md:space-y-6 lg:space-y-8 ">
-            <div className="bg-blue-50 p-5  ">
-              <div>
-                <div className="flex items-start gap-4">
-                  <div className="bg-blue-100 rounded-full p-2">
-                    <GraduationCap size={32} className="text-blue-800" />
-                  </div>
-                  <div>
-                    <p className="text-lg font-semibold lg:text-xl">
-                      Qualifications
-                    </p>
-                    <div className="mt-2">
-                      <p className="text-base lg:text-lg font-medium font-serif">
-                        University of South Africa
-                      </p>
-                      <ul className="text-sm sm:text-base lg:text-lg space-y-1.5 list-disc ml-8">
+            <div className="bg-blue-50 p-5">
+              <div className="flex items-start gap-4">
+                <div className="bg-blue-100 rounded-full p-2">
+                  <GraduationCap size={32} className="text-blue-800" />
+                </div>
+                <div>
+                  <p className="text-lg font-semibold lg:text-xl">
+                    Qualifications
+                  </p>
+                  <div className="mt-2">
+                    <div className="space-y-2 ml-4">
+                      <div>
+                        <p className="text-base lg:text-lg font-medium font-serif">
+                          University of South Africa
+                        </p>
+                        <ul className="text-sm sm:text-base lg:text-lg list-disc ml-8">
+                          <li>Graduated BCom Degree Unisa</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <p className="text-base lg:text-lg font-medium font-serif ">
+                          Unisa School of Business Leadership
+                        </p>
+                        <ul className="text-sm sm:text-base lg:text-lg list-disc ml-8">
+                          <li>
+                            Graduated Master of Business Leadership Degree(MBL)
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <p className="text-base lg:text-lg font-medium font-serif">
+                          Davinci Business School
+                        </p>
+                        <ul className="text-sm sm:text-base lg:text-lg  list-disc ml-8">
+                          <li>
+                            Currently completing Phd in business turnaround and
+                            rescue
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    {/* <ul className="text-sm sm:text-base lg:text-lg space-y-1.5 list-disc ml-8">
                         <li>Graduated BCom Degree Unisa</li>
                         <li>
                           Graduated Master of Business Leadership Degree(MBL)
@@ -53,8 +81,7 @@ const Founder = () => {
                           Currently completing Phd in business turnaround and
                           rescue
                         </li>
-                      </ul>
-                    </div>
+                      </ul> */}
                   </div>
                 </div>
               </div>
@@ -80,13 +107,17 @@ const Founder = () => {
                           Africa
                         </li>
                         <li>
-                          Certified Business Advisor With IBASA Membership
-                          number: <span className="font-semibold">M5829</span>
+                          Certified Business Advisor With IBASA{" "}
+                          <span className="block font-medium">
+                            Membership number: M5829
+                          </span>
                         </li>
                         <li>
                           Accredited Experienced Business Rescue Practitioner
-                          with CIPC License number:{" "}
-                          <span className="font-semibold">6934</span>
+                          with CIPC{" "}
+                          <span className="block font-medium">
+                            License number: 6934
+                          </span>
                         </li>
                       </ul>
                     </div>
@@ -106,17 +137,44 @@ const Founder = () => {
                       Experience
                     </p>
                     <div className="mt-2">
-                      <p className="text-base lg:text-lg font-medium font-serif mb-1 capitalize">
-                        Business rescue and turnaround experience
-                      </p>
-                      <ul className="text-sm sm:text-base lg:text-lg space-y-1.5 list-disc ml-8">
-                        <li>Lennings Group SA Divisional Director</li>
-                        <li>Whiteys A Division Powertech Industries</li>
-                        <li>
-                          Linden Industrial Engineering Founded Several Ongoing
-                          Technology Companies
-                        </li>
-                      </ul>
+                      <div className="space-y-2 ml-4">
+                        <div>
+                          <p className="text-base lg:text-lg font-medium font-serif">
+                            Business Rescue and Turnaround Experience
+                          </p>
+                          <ul className="text-sm sm:text-base lg:text-lg list-disc ml-8">
+                            <li>Lennings Group Statrote</li>
+                          </ul>
+                        </div>
+                        <div>
+                          <p className="text-base lg:text-lg font-medium font-serif ">
+                            Divisional Director
+                          </p>
+                          <ul className="text-sm sm:text-base lg:text-lg list-disc ml-8">
+                            <li>Whiteys A Division of Powertech Industries</li>
+                          </ul>
+                        </div>
+
+                        <div>
+                          <p className="text-base lg:text-lg font-medium font-serif">
+                            Divisional Director
+                          </p>
+                          <ul className="text-sm sm:text-base lg:text-lg  list-disc ml-8">
+                            <li>Linden Industrial Engineering</li>
+                          </ul>
+                        </div>
+
+                        <div>
+                          <p className="text-base lg:text-lg font-medium font-serif">
+                            Entrepreneurial Experience
+                          </p>
+                          <ul className="text-sm sm:text-base lg:text-lg  list-disc ml-8">
+                            <li>
+                              Founded Several Ongoing Technology Companies
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
