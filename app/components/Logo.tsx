@@ -1,6 +1,5 @@
 import Image from "next/image";
-import React from "react";
-import logo from "@/public/verdun-header-logo.png";
+import logo from "@/public/verdun-mini-logo.png";
 import Link from "next/link";
 
 const Logo = () => {
@@ -14,7 +13,7 @@ const Logo = () => {
         height={25}
         className="bg-transparent"
       />
-      <p className="font-bold text-lg text-[#135a91]">Verdun</p>
+      <p className="font-bold text-lg text-blue-500">Verdun</p>
     </Link>
   );
 };

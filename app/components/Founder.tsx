@@ -126,7 +126,38 @@ const Founder = () => {
               </div>
             </div>
 
-            <div className="bg-blue-50 p-5">
+            <div className="bg-blue-50 p-5 ">
+              <div>
+                <div className="flex items-start gap-4">
+                  <div className="bg-blue-100 rounded-full p-2">
+                    <BriefcaseBusiness size={32} className="text-blue-800" />
+                  </div>
+                  <div>
+                    <p className="text-lg font-semibold lg:text-xl">
+                      Experience
+                    </p>
+                    <div className="mt-2">
+                      <p className="text-base lg:text-lg font-medium font-serif">
+                        Business Rescue and Turnaround Experience
+                      </p>
+                      <ul className="text-sm sm:text-base lg:text-lg space-y-1.5 list-disc ml-8">
+                        <li>Divisional Director at Lennings Group Statrote</li>
+                        <li>
+                          Divisional Director at Whiteys A Division of Powertech
+                          Industries
+                        </li>
+                        <li>
+                          Divisional Director at Linden Industrial Engineering
+                        </li>
+                        <li>Founded Several Ongoing Technology Companies</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* <div className="bg-blue-50 p-5">
               <div>
                 <div className="flex items-start gap-4">
                   <div className="bg-blue-100 rounded-full p-2">
@@ -179,7 +210,7 @@ const Founder = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
