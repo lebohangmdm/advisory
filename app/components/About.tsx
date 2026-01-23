@@ -29,7 +29,7 @@ const About = () => {
             </p>
             <ul className="flex flex-col gap-1 lg:gap-1.5 list-disc ml-8">
               <li className="text-base lg:text-lg">
-                Critical evaluation of business rescue plans
+                Objectives evaluation of business rescue plans
               </li>
               <li className="text-base lg:text-lg">Business turnaround</li>
               <li className="text-base lg:text-lg">Business rescue</li>

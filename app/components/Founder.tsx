@@ -146,9 +146,7 @@ const Founder = () => {
                           Divisional Director at Whiteys A Division of Powertech
                           Industries
                         </li>
-                        <li>
-                          Divisional Director at Linden Industrial Engineering
-                        </li>
+                        <li>Linden Industrial Engineering</li>
                         <li>Founded Several Ongoing Technology Companies</li>
                       </ul>
                     </div>
