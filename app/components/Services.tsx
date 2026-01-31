@@ -26,13 +26,18 @@ export const serviceData = [
 const Services = () => {
   return (
     <section id="services" className="section-container">
-      <div className="mb-4 sm:mb-6 md:mb-8 lg:mb-12 xl:mb-16">
-        <h2 className="text-2xl  text-blue-500 capitalize font-semibold md:text-3xl lg:text-4xl mb-0.5 md:m-1">
+      <div className="mb-6 sm:mb-8 md:mb-12 lg:mb-16 xl:mb-20">
+        <h2 className="text-2xl  text-blue-500 capitalize font-semibold md:text-3xl lg:text-4xl mb-1 md:m-1.5 lg:mb-2">
           Our areas of focus and success
         </h2>
-        <p className="text-sm font-medium sm:text-base lg:text-lg">
-          Manufacturing repairs and services companies in the industrial and
-          engineering sectors.
+        <p className="text-sm font-medium sm:text-base lg:text-lg uppercase flex flex-wrap gap-3 md:gap-4 lg:gap-5">
+          <span className="uppercase">Manufacturing</span> <span>|</span>{" "}
+          <span className="uppercase">Repair </span> <span>|</span>{" "}
+          <span className="uppercase">Services </span>{" "}
+        </p>
+
+        <p className="text-xs font-medium sm:text-sm md:text-base">
+          Companies in the industrial and engineering sectors.
         </p>
       </div>
 

@@ -15,7 +15,7 @@ const Testimonials = () => {
   ];
   return (
     <section id="testimonials" className="section-container">
-      <div className="mb-4 sm:mb-6 md:mb-8 lg:mb-12 xl:mb-16">
+      <div className="mb-6 sm:mb-8 md:mb-12 lg:mb-16 xl:mb-20">
         <h2 className="text-xl text-blue-500 capitalize font-semibold sm:text-2xl md:text-3xl lg:text-4xl mb-0.5 md:m-1">
           Testimonials
         </h2>

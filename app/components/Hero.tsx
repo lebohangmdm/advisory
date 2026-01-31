@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "@/app/components/Header";
 import Image from "next/image";
-import logo from "@/public/Verdun_Business_Advisory_logo.png";
+import logo from "@/public/Verdun Business Advisory(verdun).png";
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
       <Header />
       <div className="relative z-10 bg-white/20 h-full flex flex-col justify-center">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="w-full sm:w-3/4 md:w-3/5 lg:w-1/2 pb-8">
+          <div className="w-full sm:w-3/4 md:w-3/5 lg:w-1/2 pb-12 sm:pb-16 md:pb-20 lg:pb-24 xl:pb-32">
             <Image
               src={logo}
               alt="Verdun logo"

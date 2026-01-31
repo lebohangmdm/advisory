@@ -96,8 +96,8 @@ export default function SlideMenu() {
 
           <div>
             <p className="text-sm font-semibold">Working Hours</p>
-            <p className="text-sm font-medium">Monday to Friday: 7AM - 7PM</p>
-            <p className="text-sm font-medium">Weekend: 10AM - 5PM</p>
+            <p className="text-sm font-medium">Monday to Friday: 8AM - 7PM</p>
+            <p className="text-sm font-medium">Weekend: 8AM - 5PM</p>
           </div>
         </div>
       </div>
