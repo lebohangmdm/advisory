@@ -5,7 +5,7 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const MapUrl =
-  "https://www.google.com/maps/place/41+13th+St,+Linden,+Randburg,+2104/@-26.1342006,28.0006844,17z";
+  "https://www.google.com/maps/place/Nisida+Industries+(Pty)+Ltd./@-26.2009876,27.9808337,15z/data=!4m15!1m8!3m7!1s0x1e950ea664a2ac73:0x545af0a60f95ca06!2sNisida+Industries+(Pty)+Ltd.!8m2!3d-26.2011465!4d27.9806306!10e5!16s%2Fg%2F11cs5ghycj!3m5!1s0x1e950ea664a2ac73:0x545af0a60f95ca06!8m2!3d-26.2011465!4d27.9806306!16s%2Fg%2F11cs5ghycj?entry=ttu&g_ep=EgoyMDI2MDIwMy4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D";
 
 export default function SlideMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -89,15 +89,16 @@ export default function SlideMenu() {
                 rel="noopener noreferrer"
                 className="hover:text-blue-500 transition-all duration-150"
               >
-                41 13th Street Linden, Randburg
+                2164 Albertina Sisulu Rd, 9A Newclare Rd, Industria,
+                Johannesburg
               </a>
             </p>
           </div>
 
           <div>
-            <p className="text-sm font-semibold">Working Hours</p>
-            <p className="text-sm font-medium">Monday to Friday: 8AM - 7PM</p>
-            <p className="text-sm font-medium">Weekend: 8AM - 5PM</p>
+            <p className="text-sm font-semibold">Office Hours</p>
+            <p className="text-sm font-medium">Monday - Sunday: 8AM - 5PM</p>
+            <p className="text-sm font-medium">Availability: 24/7</p>
           </div>
         </div>
       </div>

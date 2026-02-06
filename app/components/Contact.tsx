@@ -2,7 +2,7 @@ import { Mail, MapPin, PhoneCall } from "lucide-react";
 
 const Contact = () => {
   const MapUrl =
-    "https://www.google.com/maps/place/132+9Th+St,+Linden,+Randburg,+2104/@-26.1342006,28.0006844,17z";
+    "https://www.google.com/maps/place/Nisida+Industries+(Pty)+Ltd./@-26.2009876,27.9808337,15z/data=!4m15!1m8!3m7!1s0x1e950ea664a2ac73:0x545af0a60f95ca06!2sNisida+Industries+(Pty)+Ltd.!8m2!3d-26.2011465!4d27.9806306!10e5!16s%2Fg%2F11cs5ghycj!3m5!1s0x1e950ea664a2ac73:0x545af0a60f95ca06!8m2!3d-26.2011465!4d27.9806306!16s%2Fg%2F11cs5ghycj?entry=ttu&g_ep=EgoyMDI2MDIwMy4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D";
 
   return (
     <section
@@ -64,7 +64,8 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       className="text-sm sm:text-base font-medium md:backdrop-blur-lg md:bg-white/10 hover:text-blue-600 transition-all duration-150"
                     >
-                      41 13th Street Linden, Randburg
+                      2164 Albertina Sisulu Rd, 9A Newclare Rd, Industria,
+                      Johannesburg
                     </a>
                   </address>
                 </div>
