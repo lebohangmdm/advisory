@@ -14,8 +14,8 @@ const Founder = () => {
             className="mx-auto"
           />
           <figcaption className="text-sm md:pl-1 lg:pl-0 md:text-[15px] text-gray-600 mt-2 max-w-lg italic">
-            &quot;We can ignore, but we cannot ignore the consequences of
-            ignoring reality (Ayn Rand)&quot; ~{" "}
+            &quot;You can ignore reality but you can&apos;t ignore the
+            consequences of ignoring reality (Ayn Rand)&quot; ~{" "}
             <strong className="text-black">Gary Greeff</strong>
           </figcaption>
         </div>
@@ -69,6 +69,7 @@ const Founder = () => {
                             Currently completing Phd in business turnaround and
                             rescue
                           </li>
+                          <li>Successfully completed first Defense</li>
                         </ul>
                       </div>
                     </div>
